@@ -12,6 +12,7 @@
 		3EB8F8B71EAEDC93009B438B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB8F8B51EAEDC93009B438B /* Main.storyboard */; };
 		3EB8F8B91EAEDC93009B438B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB8F8B81EAEDC93009B438B /* Assets.xcassets */; };
 		3EB8F8BC1EAEDC93009B438B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB8F8BA1EAEDC93009B438B /* LaunchScreen.storyboard */; };
+		3EB8F8C41EAEE176009B438B /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8F8C31EAEE176009B438B /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3EB8F8B81EAEDC93009B438B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EB8F8BB1EAEDC93009B438B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EB8F8BD1EAEDC93009B438B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB8F8C31EAEE176009B438B /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3EB8F8B11EAEDC93009B438B /* AppDelegate.swift */,
 				3EB8F8B31EAEDC93009B438B /* ViewController.swift */,
+				3EB8F8C31EAEE176009B438B /* PhotoCollectionViewCell.swift */,
 				3EB8F8B51EAEDC93009B438B /* Main.storyboard */,
 				3EB8F8B81EAEDC93009B438B /* Assets.xcassets */,
 				3EB8F8BA1EAEDC93009B438B /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				3EB8F8B41EAEDC93009B438B /* ViewController.swift in Sources */,
 				3EB8F8B21EAEDC93009B438B /* AppDelegate.swift in Sources */,
+				3EB8F8C41EAEE176009B438B /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gallaugher.SavingAndLoadingImages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -282,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gallaugher.SavingAndLoadingImages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
